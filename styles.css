@@ -1,0 +1,125 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: rgba(199, 216, 252, 0.2);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Cabecera */
+  header {
+    background-color: #005fb3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección de contenido */
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  
+  h3 {
+    color: #333;
+    margin-top: 10px;
+    font-size: 1.4em;
+  }
+  
+  ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    list-style-type: square;
+  }
+  
+  .empresa {
+    margin-bottom: 20px;
+  }
+  
+  .empresa img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0056b3;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    .empresa img {
+      width: 120px;
+    }
+  }
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scrollTopBtn:hover {
+    background-color: #003a80;
+}

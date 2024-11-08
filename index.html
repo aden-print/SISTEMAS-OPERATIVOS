@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog sobre Sistemas Distribuidos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navegación -->
+  <header>
+    <h1>Blog: Sistemas Distribuidos</h1>
+    <nav>
+      <a href="#definicion">Definición y Propiedades</a>
+      <a href="#empresas">Empresas que utilizan Sistemas Distribuidos</a>
+      <a href="#importancia">Importancia de los Sistemas Distribuidos</a>
+      <a href="#caso-estudio">Caso de Estudio</a>
+    </nav>
+  </header>
+
+  <!-- Sección de Definición y Propiedades -->
+  <section id="definicion">
+    <img src="https://media.licdn.com/dms/image/D4E12AQEchqFCKTFlMw/article-cover_image-shrink_720_1280/0/1685925894196?e=2147483647&v=beta&t=f1aOtnuK9vQrz6q9hWgQrWArsrT82pwUMU6_nBG3eMQ" alt="Sistemas Distribuidos">
+    <h2>Sistemas Distribuidos</h2>
+    <h3>Definición</h3>
+    <p>Un sistema distribuido es un conjunto de computadoras independientes conectadas a través de una red, que se comunican mediante mensajes y cooperan para realizar tareas específicas. Cada computadora tiene su propia memoria local y periféricos.</p>
+    
+    <h3>Propiedades</h3>
+    <ul>
+      <li><b>Transparencia:</b> El sistema debe funcionar de manera uniforme en todos los puntos de la red, ocultando su naturaleza distribuida.</li>
+      <li><b>Eficiencia:</b> Se busca mejorar la velocidad de procesamiento utilizando paralelismo.</li>
+      <li><b>Escalabilidad:</b> Debe funcionar eficientemente desde unas pocas computadoras hasta miles, sin depender del tipo de red.</li>
+      <li><b>Fiabilidad:</b> El sistema debe continuar funcionando incluso si algunas máquinas fallan, gracias a la redundancia de datos.</li>
+      <li><b>Comunicación:</b> Se realiza mediante la transferencia de mensajes, ya que no hay memoria compartida entre los equipos.</li>
+    </ul>
+  </section>
+
+  <!-- Sección de Empresas -->
+  <section id="empresas">
+    <h2>Empresas que utilizan Sistemas Distribuidos</h2>
+    
+    <div class="empresa">
+      <h3>Airbnb</h3>
+      <img src="https://www.360agenciainmobiliaria.com/articulo/airbnb.jpeg" alt="Logo de Airbnb">
+      <p>Airbnb utiliza sistemas distribuidos para gestionar grandes volúmenes de datos y usuarios en múltiples ubicaciones. Su arquitectura de microservicios permite una escalabilidad fluida, y su sistema se basa en almacenamiento distribuido en la nube, usando redes tipo Ethernet para conectar sus bases de datos distribuidas.</p>
+      <ul>
+        <li><b>Ventajas:</b> Escalabilidad, manejo eficiente de transacciones globales, alta disponibilidad.</li>
+        <li><b>Tipo de red:</b> Ethernet y redes en la nube.</li>
+      </ul>
+    </div>
+    
+    <div class="empresa">
+      <h3>InDrive</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbWWTCQd2e3OmpnwJerCIgiztZRVMEXk5gQ&s" alt="Logo de InDrive">
+      <p>InDrive utiliza sistemas distribuidos para gestionar su plataforma de transporte en tiempo real. Utiliza redes orientadas a la conexión para mantener la comunicación continua entre usuarios y conductores. Esto permite el manejo eficiente de solicitudes de transporte en diversas ubicaciones.</p>
+      <ul>
+        <li><b>Ventajas:</b> Conectividad en tiempo real, escalabilidad en diferentes regiones, alta fiabilidad.</li>
+        <li><b>Tipo de red:</b> Redes orientadas a la conexión (TCP/IP) y redes móviles.</li>
+      </ul>
+    </div>
+
+    <div class="empresa">
+      <h3>AliExpress</h3>
+      <img src="https://ae01.alicdn.com/kf/S3d28d57a0ea7496591f20866e532e1c1F.png" alt="Logo de AliExpress">
+      <p>AliExpress gestiona sus operaciones a través de sistemas distribuidos que soportan millones de transacciones diarias. Utilizan redes distribuidas para manejar sus sistemas de inventario y pedidos, aprovechando el almacenamiento distribuido y el balanceo de cargas para mayor eficiencia y rapidez.</p>
+      <ul>
+        <li><b>Ventajas:</b> Rápido procesamiento de pedidos, escalabilidad de la infraestructura, alta disponibilidad de datos.</li>
+        <li><b>Tipo de red:</b> Redes de área amplia (WAN) y redes en la nube.</li>
+      </ul>
+    </div>
+
+    <div class="empresa">
+      <h3>Oracle</h3>
+      <img src="https://itdconsulting.com/wp-content/uploads/2022/02/Oracle-Logo.png" alt="Logo de Oracle">
+      <p>Oracle ofrece servicios de bases de datos distribuidas que permiten la integración de datos en múltiples ubicaciones. Sus redes distribuidas facilitan el almacenamiento de datos redundante, garantizando alta disponibilidad y seguridad en el acceso a la información.</p>
+      <ul>
+        <li><b>Ventajas:</b> Redundancia de datos, alta disponibilidad, escalabilidad.</li>
+        <li><b>Tipo de red:</b> Redes de almacenamiento (SAN) y redes en la nube.</li>
+      </ul>
+    </div>
+
+    <div class="empresa">
+      <h3>Cisco</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTInhj4lp7LkLJMcuS_FRt13hQs4sfVP8rpQ&s" alt="Logo de Cisco">
+      <p>Cisco utiliza sistemas distribuidos en sus soluciones de redes avanzadas para empresas. Proporcionan redes de alta capacidad que permiten a las empresas manejar grandes cantidades de datos con escalabilidad y disponibilidad mejorada.</p>
+      <ul>
+        <li><b>Ventajas:</b> Alta capacidad, escalabilidad, gestión de datos en tiempo real.</li>
+        <li><b>Tipo de red:</b> Ethernet y redes empresariales.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sección de Importancia -->
+  <section id="importancia">
+    <img src="https://ilimit.com/wp-content/uploads/2020/06/arquitecturadistribuidasoftware.jpg" alt="Importancia de los sistemas distribuidos">
+    <h2>Importancia de los Sistemas Distribuidos</h2>
+    <p>Los sistemas distribuidos son fundamentales en la era moderna de la tecnología, ya que permiten a las empresas aprovechar recursos distribuidos y ofrecer servicios escalables y de alta disponibilidad. Estos sistemas facilitan:</p>
+    <ul>
+      <li><b>Escalabilidad:</b> Permiten a las empresas adaptarse a un número creciente de usuarios sin perder rendimiento.</li>
+      <li><b>Confiabilidad:</b> Al tener datos replicados en varias ubicaciones, los sistemas distribuidos pueden seguir operando a pesar de fallas en algunas de sus partes.</li>
+      <li><b>Velocidad y rendimiento:</b> Al distribuir las tareas en múltiples máquinas, es posible mejorar el tiempo de respuesta y optimizar el procesamiento de datos.</li>
+      <li><b>Compartición de recursos:</b> Facilita que varios dispositivos o aplicaciones puedan acceder a recursos compartidos de manera transparente.</li>
+      <li><b>Redundancia y Resiliencia:</b> La duplicación de datos y recursos garantiza que los sistemas distribuidos se recuperen rápidamente ante problemas o caídas del sistema.</li>
+    </ul>
+  </section>
+
+ <!-- Sección de Caso de Estudio -->
+ <section id="caso-estudio">
+    <img src="https://www.businessempresarial.com.pe/wp-content/uploads/2022/06/photo4956275230771358271.jpg" alt="Caso de estudio de InDrive">
+    <h2>Caso de Estudio: InDrive - Expansión y Adaptación en Tiempos de Alta Demanda</h2>
+    
+    <h3>Contexto</h3>
+    <p>InDrive ha experimentado un crecimiento acelerado, expandiéndose a más de 40 países en un corto período. Su sistema distribuido ha sido crucial para soportar este aumento de usuarios, especialmente durante la pandemia de COVID-19, cuando se incrementó significativamente la demanda de servicios de transporte privado en varias ciudades.</p>
+    
+    <h3>Desafío</h3>
+    <p>Durante esta etapa, InDrive enfrentó un aumento drástico en el número de usuarios en ciudades como Lima, México D.F., y otras capitales, lo cual puso presión sobre su infraestructura tecnológica para responder de manera rápida, confiable y en tiempo real. Además, era esencial garantizar la disponibilidad y precisión en los servicios de geolocalización, gestionando millones de interacciones diarias en varias zonas horarias.</p>
+
+    <h3>Solución Implementada y Tipo de Red</h3>
+    <p>Para abordar este reto, InDrive usó una arquitectura de red distribuida basada en la nube, apoyada en bases de datos distribuidas y un sistema de procesamiento en tiempo real. Los elementos clave de la solución fueron:</p>
+    <ul>
+      <li><b>Bases de datos distribuidas:</b> InDrive empleó bases de datos distribuidas en múltiples centros de datos, lo que permitía el almacenamiento y sincronización de la información de los usuarios. Cada vez que un usuario hacía una solicitud de viaje, la información se procesaba en el servidor más cercano, reduciendo la latencia y mejorando la respuesta.</li>
+      <li><b>Geolocalización en tiempo real:</b> La arquitectura distribuida permitía el procesamiento en tiempo real de las ubicaciones de los conductores y pasajeros, logrando cálculos de rutas y tiempos de llegada precisos mediante servicios de mapas distribuidos geográficamente.</li>
+      <li><b>Red de servicios en la nube y balanceo de carga:</b> La red en la nube de InDrive, con balanceadores de carga, distribuía automáticamente las solicitudes entre varios servidores, evitando sobrecargas y garantizando tiempos de respuesta rápidos.</li>
+    </ul>
+
+    <h3>Importancia del Sistema Distribuido para InDrive</h3>
+    <ul>
+      <li><b>Escalabilidad y Adaptabilidad:</b> La arquitectura distribuida permitió a InDrive aumentar su capacidad en respuesta a la demanda sin necesidad de reestructurar su sistema central, algo crucial durante picos de demanda alta.</li>
+      <li><b>Disponibilidad y Resiliencia:</b> Gracias a la redundancia y a la distribución de datos, InDrive pudo operar sin interrupciones, asegurando un servicio continuo.</li>
+      <li><b>Optimización de la experiencia del usuario:</b> La red distribuida y el procesamiento en tiempo real redujeron los tiempos de espera, mejorando la experiencia del usuario y permitiéndole competir con otras plataformas de transporte.</li>
+    </ul>
+
+    <h3>Resultados</h3>
+    <p>Gracias a su infraestructura distribuida, InDrive fue capaz de atender la creciente demanda de servicios sin afectar la calidad o velocidad de respuesta de su aplicación. Esto no solo le permitió mejorar la satisfacción del usuario, sino también consolidarse como una opción confiable y eficiente en ciudades con alta demanda de transporte privado.</p>
+    
+    <p>Este caso destaca cómo una arquitectura distribuida flexible y bien diseñada permitió a InDrive responder a un escenario desafiante de demanda, demostrando la importancia de los sistemas distribuidos en aplicaciones globales de transporte.</p>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Blog sobre Sistemas Distribuidos</p>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+<button id="scrollTopBtn">↑</button>
+
+
+</body>
+</html>
