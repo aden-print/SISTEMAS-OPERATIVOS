@@ -84,7 +84,7 @@ ul {
 }
 
 .empresa img {
-  width: 150px;
+  width: 280px;
   height: auto;
   display: block;
   margin: 10px auto;
@@ -103,14 +103,14 @@ footer {
 /* Botón de "scroll" */
 #scrollTopBtn {
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
   background-color: #0056b3;
   color: white;
   border: none;
   padding: 10px 15px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 40px;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -206,4 +206,11 @@ footer {
     padding: 6px 10px;
     font-size: 16px;
   }
+}
+select {
+  font-size: 1.2em; /* Aumenta el tamaño del texto */
+  padding: 12px 16px; /* Aumenta el padding para que sea más grande */
+  border-radius: 6px; /* Redondea los bordes */
+  border: 1px solid #005fb3; /* Color del borde */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
 }
